@@ -1,0 +1,210 @@
+@font-face {
+    font-family: open-sans;
+    src: url(/assets/fonts/open-sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: open-sans-bold;
+    src: url(/assets/fonts/open-sans/static/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: palatino;
+    src: url(/assets/fonts/palatino/Palatino\ LT\ Bold.ttf);
+}
+
+@font-face {
+    font-family: didotic-italic;
+    src: url(/assets/fonts/dipotic/Didot-Italic.otf);
+}
+
+.head-bar{
+    background: #efece8;
+    font-size: 9px;
+    letter-spacing:2px;
+    padding: 11px;
+}
+
+.primary-text{
+    font-family: open-sans;
+    text-decoration: none;
+    color: gray;
+}
+
+.primary-text:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+.menu{
+    font-size: 11px;
+    letter-spacing:2px;
+}
+.menu:hover {
+    font-style: italic;
+    font-size: 11px;
+    letter-spacing:2px;
+}
+
+.menu-bottom-style{
+    visibility:hidden;
+}
+
+.menu:hover + .menu-bottom-style{
+    visibility: visible;
+}
+.menu-container{
+    margin: 1rem;
+    margin-left: 10rem;
+    
+}
+.header{
+    font-family: palatino;
+    font-size: 17px;
+    letter-spacing: 5px;
+    color: rgb(77, 77, 77);
+}
+.semi-header{
+    font-family: didotic-italic;
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: gray;
+}
+.description{
+    font-family: open-sans;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 13px;
+    line-height: 1.925;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 600;
+    padding: 0 4rem;  
+}
+
+.logo{
+    opacity: 30%;
+    cursor: pointer;
+    z-index: 10;
+}
+.link-over-logo{
+    font-family: open-sans;
+    text-decoration: none;
+    color: gray;
+    padding-top: 2rem;
+    font-size: 14px;
+    line-height: 1.925;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    margin-left: -1rem;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    transition: ease-out;
+    transition-duration:0.25s;
+}
+.link-over-logo:hover{
+    color: #202020;
+    transition: ease-in;
+    transition-duration:0.25s;
+}
+
+.logo-2{
+    margin-left: 0rem;
+}
+.logo-3{
+    margin-left: -3rem;
+}
+
+#slider-container{
+    width: 80rem;
+}
+#mid-section{
+    padding-left: 39px;
+}
+#our-showroom{
+    padding-right: 66px;
+}
+
+.description-2{
+    font-family: open-sans;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 13px;
+    line-height: 1.925;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 600;
+    padding: 0 3rem;
+    margin-left: -40px;  
+}
+
+.divider{
+    width: auto;
+    background: #efece8;
+    height: 1px;
+    padding: 0px 18rem;
+}
+
+.footer-text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #a7a1a4;
+    margin: 5px auto 20px;
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-text:hover{
+    text-decoration: none;
+    color: #a7a1a4;
+
+}
+
+footer{
+    background: #efece8;
+    padding: 20px;
+}
+
+.footer-link-text{
+    color:#a7a1a4;
+    font-family: open-sans;
+    text-decoration: none;
+}
+.footer-link-text:hover{
+    color:#a7a1a4;
+}
+.footer-header{
+    font-family: palatino;
+    font-size: 13px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    color: rgb(77, 77, 77);
+}
+.footer-description{
+    font-family: open-sans;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 13px;
+    line-height: 0.925;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 600;
+}
+.contact-heading{
+    margin-bottom: -2px;
+}
+
+.icon-link{
+    text-decoration: none;
+    opacity: 30%;
+}
+.icon-box{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.divider-footer{
+    background: #606268;
+    padding: 3px 35px;
+}
