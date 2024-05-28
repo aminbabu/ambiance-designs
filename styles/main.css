@@ -38,6 +38,7 @@
     font-size: 11px;
     letter-spacing:2px;
 }
+
 .menu:hover {
     font-style: italic;
     font-size: 11px;
@@ -51,11 +52,12 @@
 .menu:hover + .menu-bottom-style{
     visibility: visible;
 }
+
 .menu-container{
     margin: 1rem;
-    margin-left: 10rem;
-    
+    margin-left: 10rem;  
 }
+
 .header{
     font-family: palatino;
     font-size: 17px;
@@ -88,7 +90,7 @@
 .link-over-logo{
     font-family: open-sans;
     text-decoration: none;
-    color: gray;
+    color: #a7a1a4;
     padding-top: 2rem;
     font-size: 14px;
     line-height: 1.925;
