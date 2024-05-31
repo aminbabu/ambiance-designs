@@ -21,16 +21,32 @@
   <body>
     <!-- Head Bar -->
     <div class="text-end head-bar">
-      <div class="text-end container">
-        <a class="phone-link primary-text" href="tel:2142657272">
-          <span>214-265-7272</span>
-        </a>
-        <span class="p-2"> · </span>
-        <a class="email-link primary-text" href="mailto:info@lauraleeclark.com"
-          >INFO@LAURALEECLARK.COM</a
-        >
+      <div class="text-end container d-flex justify-content-end">
+        <!-- Hamburger menu button -->
+        <button class="hamburger-btn d-block d-lg-none " onclick="hamburgerMenu()">
+          <img width="25" src="/assets/icons/menu-burger.png" alt="hamburger">
+        </button>
+        <div class="d-none d-lg-block">
+          <a class="phone-link primary-text " href="tel:2142657272">
+            <span>214-265-7272</span>
+          </a>
+          <span class="px-2"> · </span>
+          <a class="email-link primary-text" href="mailto:info@lauraleeclark.com"
+            >INFO@LAURALEECLARK.COM</a
+          >
+        </div>
       </div>
     </div>
+    <!-- Hamburger menu content -->
+    <nav id="menu-content-hamburger" class="d-block d-lg-none" > 
+      <ul class="d-flex flex-column px-4" id="menu-content-box">
+        <a href="/about.html" class="primary-text menu py-2">ABOUT</a>
+        <a href="/portfolio.html" class="primary-text menu py-2">PORTFOLIO</a>
+        <a href="/showroom.html" class="primary-text menu py-2">SHOWROOM</a>
+        <a href="/contact.html" class="primary-text menu py-2">CONTACT</a>
+      </ul>
+    </nav>
+
     <!-- company logo section -->
     <div class="conatiner">
       <div class="company-logo d-flex flex-row justify-content-center p-3">
@@ -39,9 +55,9 @@
         </a>
       </div>
       <!-- menu -->
-      <div class="container d-flex flex-row justify-content-between">
+      <div class="container d-lg-flex flex-row justify-content-between d-none pb-3">
         <div class="d-flex flex-column">
-          <a class="primary-text menu ps-4" href="/"> ABOUT</a>
+          <a class="primary-text menu ps-4" href="/about.html"> ABOUT</a>
           <img
             class="menu-bottom-style ps-4"
             src="/assets/images/menu-bottom-style.png"
@@ -49,7 +65,7 @@
           />
         </div>
         <div class="d-flex flex-column">
-          <a class="primary-text menu" href="/">PORTFOLIO</a>
+          <a class="primary-text menu" href="/portfolio.html">PORTFOLIO</a>
           <img
             class="menu-bottom-style"
             src="/assets/images/menu-bottom-style.png"
@@ -57,7 +73,7 @@
           />
         </div>
         <div class="d-flex flex-column">
-          <a class="primary-text menu" href="/">SHOWROOM</a>
+          <a class="primary-text menu" href="/showroom.html">SHOWROOM</a>
           <img
             class="menu-bottom-style"
             src="/assets/images/menu-bottom-style.png"

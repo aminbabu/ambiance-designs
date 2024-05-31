@@ -17,16 +17,19 @@
 }
 
 .head-bar{
+    position: relative;
     background: #efece8;
     font-size: 9px;
     letter-spacing:2px;
     padding: 11px;
+    z-index: 100;
 }
 
 .primary-text{
     font-family: open-sans;
     text-decoration: none;
     color: gray;
+    z-index: 1;
 }
 
 .primary-text:hover{
@@ -41,8 +44,6 @@
 
 .menu:hover {
     font-style: italic;
-    font-size: 11px;
-    letter-spacing:2px;
 }
 
 .menu-bottom-style{
@@ -57,6 +58,21 @@
     margin: 1rem;
     margin-left: 10rem;  
 }
+
+.hamburger-btn{
+    border: none;
+    background: transparent;
+    opacity:50%;
+}
+#menu-content-hamburger{
+    margin-top: -11rem;
+    margin-bottom: 3rem;
+    background: #efece8;
+    transition: all .5s ease-in-out 0s;
+    z-index: 10;
+    text-align: end;
+}
+
 
 .header{
     font-family: palatino;
